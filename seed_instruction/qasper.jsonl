@@ -1,0 +1,200 @@
+{"instruction": "Do they use a pretrained NMT model to help generating reviews?", "answer": "No"}
+{"instruction": "What kind of settings do the utterances come from?", "answer": "entertainment, interview, singing, play, movie, vlog, live broadcast, speech, drama, recitation and advertisement"}
+{"instruction": "What evaluation metric is used?", "answer": "F1 and Weighted-F1"}
+{"instruction": "which public datasets were used?", "answer": "CMRC-2017, People's Daily (PD), Children Fairy Tales (CFT) , Children's Book Test (CBT)"}
+{"instruction": "What is increase in percentage of humor contained in headlines generated with TitleStylist method (w.r.t. baselines)?", "answer": "Humor in headlines (TitleStylist vs Multitask baseline):\nRelevance: +6.53% (5.87 vs 5.51)\nAttraction: +3.72% (8.93 vs 8.61)\nFluency: 1,98% (9.29 vs 9.11)"}
+{"instruction": "Which three Twitter sentiment classification datasets are used for experiments?", "answer": "Stanford - Twitter Sentiment Corpus (STS Corpus), Sanders - Twitter Sentiment Corpus, Health Care Reform (HCR)"}
+{"instruction": "What else is tried to be solved other than 12 tenses, model verbs and negative form?", "answer": "cases of singular/plural, subject pronoun/object pronoun, etc."}
+{"instruction": "What model do they train?", "answer": "Support Vector Machines (SVM), Gaussian Naive Bayes, Multinomial Naive Bayes, Decision Trees, Random Forests and a Maximum Entropy classifier"}
+{"instruction": "How high is the inter-annotator agreement?", "answer": "agreement of 0.85 and Kappa value of 0.83"}
+{"instruction": "Is the model compared against a linear regression baseline?", "answer": "No"}
+{"instruction": "Does the paper report macro F1?", "answer": "Yes"}
+{"instruction": "What are the uncanny semantic structures of the embedding space?", "answer": "Semantic similarity structure, Semantic direction structure"}
+{"instruction": "How many roles are proposed?", "answer": "12"}
+{"instruction": "What model do they use to classify phonetic segments?", "answer": "feedforward neural networks, convolutional neural networks"}
+{"instruction": "How better is proposed model compared to baselines?", "answer": " improves the F1 score by almost 2%, which corresponds to a 12.3% error rate reduction"}
+{"instruction": "What social media platform is observed?", "answer": "Twitter"}
+{"instruction": "How big is their dataset?", "answer": "3 million webpages processed with a CCG parser for training, 220 queries for development, and 307 queries for testing"}
+{"instruction": "Do they test their approach on large-resource tasks?", "answer": "Yes"}
+{"instruction": "Which features do they use?", "answer": "beyond localized features and have access to the entire sequence"}
+{"instruction": "What was the inter-annotator agreement?", "answer": "correctness of all the question answer pairs are verified by at least two annotators"}
+{"instruction": "What is the best performance achieved by supervised models?", "answer": "Unanswerable"}
+{"instruction": "How is the CoLA grammatically annotated?", "answer": "labeled by experts"}
+{"instruction": "What are the datasets used for training?", "answer": "SemEval 2016 Task 6 BIBREF7, Stance Sentiment Emotion Corpus (SSEC) BIBREF15"}
+{"instruction": "Do they report results only on English data?", "answer": "Yes"}
+{"instruction": "Do they propose any solution to debias the embeddings?", "answer": "No"}
+{"instruction": "What are the results?", "answer": "Using all data to train: AL -- BiGRU achieved 0.843 accuracy, AL -- BERT achieved 0.863 accuracy, AL+CA+CO -- BiGRU achieved 0.866 accuracy, AL+CA+CO -- BERT achieved 0.835, accuracy, ACP -- BiGRU achieved 0.919 accuracy, ACP -- BERT achived 0.933, accuracy, ACP+AL+CA+CO -- BiGRU achieved 0.917 accuracy, ACP+AL+CA+CO -- BERT achieved 0.913 accuracy. \nUsing a subset to train: BERT achieved 0.876 accuracy using ACP (6K), BERT achieved 0.886 accuracy using ACP (6K) + AL, BiGRU achieved 0.830 accuracy using ACP (6K), BiGRU achieved 0.879 accuracy using ACP (6K) + AL + CA + CO."}
+{"instruction": "How do they confirm their model working well on out-of-vocabulary problems?", "answer": "conduct experiments using artificially constructed unnormalized text by corrupting words in the normal dev set"}
+{"instruction": "What approach performs better in experiments global latent or sequence of fine-grained latent variables?", "answer": "PPL: SVT\nDiversity: GVT\nEmbeddings Similarity: SVT\nHuman Evaluation: SVT"}
+{"instruction": "Did they use other evaluation metrics?", "answer": "Yes"}
+{"instruction": "Which clinically validated survey tools are used?", "answer": "DOSPERT, BSSS and VIAS"}
+{"instruction": "Which knowledge graph completion tasks do they experiment with?", "answer": "link prediction , triplet classification"}
+{"instruction": "How big is their dataset?", "answer": "1.1 million sentences, 119 different relation types (unique predicates)"}
+{"instruction": "What are the linguistic differences between each class?", "answer": "Each class has different patterns in adjectives, adverbs and verbs for sarcastic and non-sarcastic classes"}
+{"instruction": "Do they use a crowdsourcing platform for annotation?", "answer": "No"}
+{"instruction": "How they demonstrate that language-neutral component is sufficiently general in terms of modeling semantics to allow high-accuracy word-alignment?", "answer": "Table TABREF15 shows that word-alignment based on mBERT representations surpasses the outputs of the standard FastAlign tool even if it was provided large parallel corpus. This suggests that word-level semantics are well captured by mBERT contextual embeddings. For this task, learning an explicit projection had a negligible effect on the performance."}
+{"instruction": "What are results of comparison between novel method to other approaches for creating compositional generalization benchmarks?", "answer": "The MCD splits achieve a significantly higher compound divergence at a similar atom divergence when compared to the other experiments"}
+{"instruction": "Do they compare against state of the art text generation?", "answer": "Yes"}
+{"instruction": "Who are the experts?", "answer": "political pundits of the Washington Post"}
+{"instruction": "Is their method capable of multi-hop reasoning?", "answer": "Yes"}
+{"instruction": "What is baseline used?", "answer": "Base , Base+Noise, Cleaning , Dynamic-CM ,  Global-CM,  Global-ID-CM, Brown-CM ,  K-Means-CM"}
+{"instruction": "Which model architecture do they use to obtain representations?", "answer": "BiLSTM with max pooling"}
+{"instruction": "What are bottleneck features?", "answer": "Bulgarian, Czech, French, German, Korean, Polish, Portuguese, Russian, Thai, Vietnamese, South African English, These features are typically obtained by training a deep neural network jointly on several languages for which labelled data is available., The final shared layer often has a lower dimensionality than the input layer, and is therefore referred to as a `bottleneck'."}
+{"instruction": "What is a sememe?", "answer": "Sememes are minimum semantic units of word meanings, and the meaning of each word sense is typically composed of several sememes"}
+{"instruction": "Does the paper discuss previous models which have been applied to the same task?", "answer": "Yes"}
+{"instruction": "Which corpus do they use?", "answer": "The dataset was created by using translations provided by Tatoeba and OpenSubtitles BIBREF16."}
+{"instruction": "What baseline is used?", "answer": "SVM"}
+{"instruction": "How large is the gap in performance between the HMMs and the LSTMs?", "answer": "With similar number of parameters, the log likelihood is about 0.1 lower for LSTMs across datasets. When the number of parameters in LSTMs is increased, their log likelihood is up to 0.7 lower."}
+{"instruction": "What were the traditional linguistic feature-based models?", "answer": "CAEVO"}
+{"instruction": "By how much does their method outperform the multi-head attention model?", "answer": "Their average improvement in Character Error Rate over the best MHA model was 0.33 percent points."}
+{"instruction": "How does this compare to contextual embedding methods?", "answer": " represent each word with an expressive multimodal distribution, for multiple distinct meanings, entailment, heavy tailed uncertainty, and enhanced interpretability. For example, one mode of the word `bank' could overlap with distributions for words such as `finance' and `money', and another mode could overlap with the distributions for `river' and `creek'."}
+{"instruction": "What is the training objective of their pair-to-sequence model?", "answer": "is to minimize the negative likelihood of the aligned unanswerable question $\\tilde{q}$ given the answerable question $q$ and its corresponding paragraph $p$ that contains the answer "}
+{"instruction": "Which pre-trained transformer do they use?", "answer": "BIBREF5"}
+{"instruction": "What is the task of slot filling?", "answer": "The task aims at extracting information about persons, organizations or geo-political entities from a large collection of news, web and discussion forum documents."}
+{"instruction": "What was the result of the highest performing system?", "answer": "For task 1 best F1 score was 0.9391 on closed and 0.9414 on open test.\nFor task2 best result had: Ratio 0.3175 , Satisfaction 64.53, Fluency 0, Turns -1 and Guide 2"}
+{"instruction": "Do they compare to other models appart from HAN?", "answer": "No"}
+{"instruction": "What is dialogue act recognition?", "answer": "DA recognition is aimed to assign a label to each utterance in a conversation. It can be formulated as a supervised classification problem. "}
+{"instruction": "Which models are best for learning long-distance movement?", "answer": "the transformer models"}
+{"instruction": "What is grounded language understanding?", "answer": "Unanswerable"}
+{"instruction": "How was the one year worth of data collected?", "answer": "Unanswerable"}
+{"instruction": "What is the reason behind the drop in performance using BERT for some popular task?", "answer": "Hence WordPiece tokenizer tokenizes noisy words into subwords. However, it ends up breaking them into subwords whose meaning can be very different from the meaning of the original word. Often, this changes the meaning of the sentence completely, therefore leading to substantial dip in the performance."}
+{"instruction": "How does the model circumvent the lack of supporting facts during training?", "answer": "the input fusion layer to allow interactions between input facts and a novel attention based GRU that allows for logical reasoning over ordered inputs. "}
+{"instruction": "What are their results on the entity recognition task?", "answer": "With both test sets performances decrease, varying between 94-97%"}
+{"instruction": "How many iterations of visual search are done on average until an answer is found?", "answer": "Unanswerable"}
+{"instruction": "What benchmark datasets are used for the link prediction task?", "answer": "WN18RR, FB15k-237, YAGO3-10"}
+{"instruction": "What is dataset used for news-driven stock movement prediction?", "answer": "the public financial news dataset released by BIBREF4"}
+{"instruction": "How are the different senses annotated/labeled?", "answer": "The contexts are manually labelled with WordNet senses of the target words"}
+{"instruction": "What semantic features help in detecting whether a piece of text is genuine or generated? of", "answer": "No feature is given, only discussion that semantic features are use in practice and yet to be discovered how to embed that knowledge into statistical decision theory framework."}
+{"instruction": "asdfasdaf", "answer": "Unanswerable"}
+{"instruction": "What are state of the art methods MMM is compared to?", "answer": "FTLM++, BERT-large, XLNet"}
+{"instruction": "Which language models generate text that can be easier to classify as genuine or generated?", "answer": "Outputs from models that are better in the sense of cross-entropy or perplexity are harder to distinguish from authentic text."}
+{"instruction": "What are the baselines?", "answer": "Title-to-Story system"}
+{"instruction": "How is the clinical text structuring task defined?", "answer": "CTS is extracting structural data from medical research data (unstructured). Authors define QA-CTS task that aims to discover most related text from original text."}
+{"instruction": "How higher are F1 scores compared to previous work?", "answer": "WordDecoding (WDec) model achieves F1 scores that are $3.9\\%$ and $4.1\\%$ higher than HRL on the NYT29 and NYT24 datasets respectively, PtrNetDecoding (PNDec) model achieves F1 scores that are $3.0\\%$ and $1.3\\%$ higher than HRL on the NYT29 and NYT24 datasets respectively"}
+{"instruction": "What challenges this work presents that must be solved to build better language-neutral representations?", "answer": "contextual embeddings do not represent similar semantic phenomena similarly and therefore they are not directly usable for zero-shot cross-lingual tasks"}
+{"instruction": "Are the rationales generated after the sentences were written?", "answer": "Yes"}
+{"instruction": "What dataset is used to measure accuracy?", "answer": "validation data"}
+{"instruction": "Which paired corpora did they use in the other experiment?", "answer": "dataset that contains article-comment parallel contents INLINEFORM0 , and an unpaired dataset that contains the documents (articles or comments) INLINEFORM1"}
+{"instruction": "What sentence embeddings were used in the previous Jentzsch paper?", "answer": "Unanswerable"}
+{"instruction": "How many responses did they obtain?", "answer": "1001"}
+{"instruction": "How do they model travel behavior?", "answer": "The data from collected travel surveys is used to model travel behavior."}
+{"instruction": "Which language directions are machine translation systems of WMT evaluated on?", "answer": "German$\\leftrightarrow $English, German$\\leftrightarrow $French, Chinese$\\leftrightarrow $English, English$\\rightarrow $Lithuanian, English$\\rightarrow $Finnish, and Russian$\\rightarrow $English, Lithuanian$\\rightarrow $English, Finnish$\\rightarrow $English, and English$\\rightarrow $Kazakh"}
+{"instruction": "What architectures are explored to improve the seq2seq model?", "answer": "VGG-BLSTM, character-level RNNLM"}
+{"instruction": "Do they experiment with combining both methods?", "answer": "Yes"}
+{"instruction": "Do they use pretrained word vectors for dialogue context embedding?", "answer": "Yes"}
+{"instruction": "How is it determined that a fact is easy-to-guess?", "answer": " filter deletes all KB triples where the correct answer (e.g., Apple) is a case-insensitive substring of the subject entity name (e.g., Apple Watch), person name filter uses cloze-style questions to elicit name associations inherent in BERT, and deletes KB triples that correlate with them"}
+{"instruction": "How is CNN injected into recurent units?", "answer": "The most simple one is to directly apply a CNN layer after the embedding layer to obtain blended contextual representations. Then a GRU layer is applied afterward."}
+{"instruction": "did they compare with other evaluation metrics?", "answer": "Yes"}
+{"instruction": "What is the performance difference between proposed method and state-of-the-arts on these datasets?", "answer": "Difference is around 1 BLEU score lower on average than state of the art methods."}
+{"instruction": "which datasets were used in validation?", "answer": "Unanswerable"}
+{"instruction": "what are the baselines?", "answer": "Perceptron model using the local features."}
+{"instruction": "How much is performance difference of existing model between original and corrected corpus?", "answer": "73.02% on the uncorrected SNLI-VE test set, achieves 73.18% balanced accuracy when tested on the corrected test set"}
+{"instruction": "What is the previous model that attempted to tackle multi-span questions as a part of its design?", "answer": "MTMSN BIBREF4"}
+{"instruction": "What commands does their setup provide to models seeking information?", "answer": "previous, next, Ctrl+F $<$query$>$, stop"}
+{"instruction": "What is the size of the dataset?", "answer": "300,000 sentences with 1.5 million single-quiz questions"}
+{"instruction": "How many tweets are explored in this paper?", "answer": "60,000 "}
+{"instruction": "How do they ensure the generated questions are unanswerable?", "answer": "learn to ask unanswerable questions by editing answerable ones with word exchanges, negations, etc"}
+{"instruction": "How well does their system perform on the development set of SRE?", "answer": "EER 16.04, Cmindet 0.6012, Cdet 0.6107"}
+{"instruction": "Are the contexts in a language different from the questions?", "answer": "Unanswerable"}
+{"instruction": "what pitfalls are mentioned in the paper?", "answer": "highly data-inefficient, underperform phrase-based statistical machine translation"}
+{"instruction": "What metrics are used to benchmark the results?", "answer": "F-score, Area Under the ROC Curve (AUC), mean accuracy (ACC), Precision vs Recall plot, ROC curve (which plots the True Positive Rate vs the False Positive Rate)"}
+{"instruction": "What is the performance of their model?", "answer": "Unanswerable"}
+{"instruction": "In which languages did the approach outperform the reported results?", "answer": "Arabic, German, Portuguese, Russian, Swedish"}
+{"instruction": "By how much of MGNC-CNN out perform the baselines?", "answer": "In terms of Subj the Average MGNC-CNN is better than the average score of baselines by 0.5.  Similarly, Scores of SST-1, SST-2, and TREC where MGNC-CNN has similar improvements. \nIn case of Irony the difference is about 2.0. \n"}
+{"instruction": "How do they introduce language variation?", "answer": " we were looking for original and uncommon sentence change suggestions"}
+{"instruction": "Which machine learning algorithms did the explore?", "answer": "biLSTM-networks"}
+{"instruction": "How big is dataset used to train Word2Vec for the Italian Language?", "answer": "$421\\,829\\,960$ words divided into $17\\,305\\,401$ sentences"}
+{"instruction": "Which four languages do they experiment with?", "answer": "German, English, Italian, Chinese"}
+{"instruction": "What were the baselines models?", "answer": "BiLSTMs + CRF architecture BIBREF36, sententce-state LSTM BIBREF21"}
+{"instruction": "How better does auto-completion perform when using both language and vision than only language?", "answer": "Unanswerable"}
+{"instruction": "What submodules does the model consist of?", "answer": "five-character window context"}
+{"instruction": "What classifier do they use?", "answer": "Stacking method, LSTMCNN, SARNN, simple LSTM bidirectional model, TextCNN"}
+{"instruction": "What classification task was used to evaluate the cross-lingual adaptation method described in this work?", "answer": "Paraphrase Identification"}
+{"instruction": "Which are the four Arabic dialects?", "answer": "Egyptian (EGY), Levantine (LEV), Gulf (GLF), North African (NOR)"}
+{"instruction": "Do the authors report results only on English data?", "answer": "Unanswerable"}
+{"instruction": "Which structured prediction approach do they adopt for temporal entity extraction?", "answer": "DeepDive BIBREF1"}
+{"instruction": "How much do they outperform previous state-of-the-art?", "answer": "On subtask 3 best proposed model has F1 score of 92.18 compared to best previous F1 score of 88.58.\nOn subtask 4 best proposed model has 85.9, 89.9 and 95.6 compared to best previous results of 82.9, 84.0 and 89.9 on 4-way, 3-way and binary aspect polarity."}
+{"instruction": "What is the results of multimodal compared to unimodal models?", "answer": "Unimodal LSTM vs Best Multimodal (FCM)\n- F score: 0.703 vs 0.704\n- AUC: 0.732 vs 0.734 \n- Mean Accuracy: 68.3 vs 68.4 "}
+{"instruction": "What are the main sources of recall errors in the mapping?", "answer": "irremediable annotation discrepancies, differences in choice of attributes to annotate, The resources themselves would need updating to encode the relevant morphosyntactic information. Some languages had a very low number of overlapping forms, and no tag matches or near-matches between them, the two annotations encode distinct information, incorrectly applied UniMorph annotation, cross-lingual inconsistency in both resources"}
+{"instruction": "Do they evaluate the syntactic parses?", "answer": "No"}
+{"instruction": "What turn out to be more important high volume or high quality data?", "answer": "only high-quality data helps"}
+{"instruction": "What approach did previous models use for multi-span questions?", "answer": "Only MTMSM specifically tried to tackle the multi-span questions. Their approach consisted of two parts: first train a dedicated categorical variable to predict the number of spans to extract and the second was to generalize the single-span head method of extracting a span"}
+{"instruction": "What are the baselines?", "answer": "GraphParser without paraphrases, monolingual machine translation based model for paraphrase generation"}
+{"instruction": "how much was the parameter difference between their model and previous methods?", "answer": "our model requires 100k parameters , while BIBREF8 requires 250k parameters"}
+{"instruction": "How close do clusters match to ground truth tone categories?", "answer": "NMI between cluster assignments and ground truth tones for all sylables is:\nMandarin: 0.641\nCantonese: 0.464"}
+{"instruction": "Why is this work different from text-only UNMT?", "answer": "the image can play the role of a pivot “language\" to bridge the two languages without paralleled corpus"}
+{"instruction": "Are their corpus and software public?", "answer": "Yes"}
+{"instruction": "Which languages do they focus on?", "answer": "two translation directions (En-It and En-De)"}
+{"instruction": "Where is the dataset from?", "answer": "dialogue simulator"}
+{"instruction": "How they show that mBERT representations can be split into a language-specific component and a language-neutral component?", "answer": "We thus try to remove the language-specific information from the representations by centering the representations of sentences in each language so that their average lies at the origin of the vector space."}
+{"instruction": "What kind of information do the HMMs learn that the LSTMs don't?", "answer": "The HMM can identify punctuation or pick up on vowels."}
+{"instruction": "What is the performance of their model?", "answer": "Answer with content missing: (Table II) Proposed model has F1 score of  0.7220."}
+{"instruction": "How big are improvements of supervszed learning results trained on smalled labeled data enhanced with proposed approach copared to basic approach?", "answer": "3%"}
+{"instruction": "Do the authors analyze what kinds of cases their new embeddings fail in where the original, less-interpretable embeddings didn't?", "answer": "No"}
+{"instruction": "What type of baseline are established for the two datasets?", "answer": "CAEVO"}
+{"instruction": "Is their model fine-tuned also on all available data, what are results?", "answer": "No"}
+{"instruction": "What data/studies do the authors provide to support the assertion that the majority of aggressive conversations contain code-mixed languages?", "answer": "None"}
+{"instruction": "Do the authors suggest that proposed metric replace human evaluation on this task?", "answer": "No"}
+{"instruction": "What is the size of the dataset?", "answer": "$0.3$ million records"}
+{"instruction": "How large is the corpus?", "answer": "It contains 106,350 documents"}
+{"instruction": "How many layers does their system have?", "answer": "4 layers"}
+{"instruction": "How many annotators are used to write natural language explanations to SNLI-VE-2.0?", "answer": "2,060 workers"}
+{"instruction": "What are the datasets used for the task?", "answer": "Datasets used are Celex (English, Dutch), Festival (Italian), OpenLexuque (French), IIT-Guwahati (Manipuri), E-Hitz (Basque)"}
+{"instruction": "What is meant by semiguided dialogue, what part of dialogue is guided?", "answer": "The Wizard can select one of several predefined messages to send, or type their own message if needed. Free text messages do not change the dialogue state in the FSM, so it is important to minimise their use by providing enough dialogue options to the Wizard."}
+{"instruction": "Are language-specific and language-neutral components disjunctive?", "answer": "No"}
+{"instruction": "What type of documents are supported by the annotation platform?", "answer": "Variety of formats supported (PDF, Word...), user can define content elements of document"}
+{"instruction": "What benchmarks did they experiment on?", "answer": "Emotion Classification (EC), Named Entity Recognition (NER), Sentence Pair Matching (SPM), Natural Language Inference (NLI)"}
+{"instruction": "What is the performance of their model?", "answer": "Unanswerable"}
+{"instruction": "How many characters are accepted as input of the language model?", "answer": "input byte embedding matrix has dimensionality 256"}
+{"instruction": "What models do previous work use?", "answer": "Ternary Trans-CNN , Hybrid multi-channel CNN and LSTM"}
+{"instruction": "What classification approaches were experimented for this task?", "answer": "NNC SU4 F1, NNC top 5, Support Vector Classification (SVC)"}
+{"instruction": "What languages are explored in the work?", "answer": "Mandarin, English"}
+{"instruction": "What are two strong baseline methods authors refer to?", "answer": "Marcheggiani and Titov (2017) and Cai et al. (2018)"}
+{"instruction": "Do any of the evaluations show that adversarial learning improves performance in at least two different language families?", "answer": "Yes"}
+{"instruction": "Is human evaluation performed?", "answer": "No"}
+{"instruction": "Is the baseline a non-heirarchical model like BERT?", "answer": "There were hierarchical and non-hierarchical baselines; BERT was one of those baselines"}
+{"instruction": "How is the dataset collected?", "answer": "A labelled dataset for a corresponding english tweets were also obtained from a study conducted by Davidson et al, HEOT obtained from one of the past studies done by Mathur et al"}
+{"instruction": "What are the baselines?", "answer": "Adobe internal NLU tool, Pytext, Rasa"}
+{"instruction": "What seven state-of-the-art methods are used for comparison?", "answer": "TransE, TransR and TransH, PTransE, and ALL-PATHS, R-GCN BIBREF24 and KR-EAR BIBREF26"}
+{"instruction": "What evaluation metric is used?", "answer": "The BLEU metric "}
+{"instruction": "What is the conclusion of comparison of proposed solution?", "answer": "HDGAN produced relatively better visual results on the CUB and Oxford datasets while AttnGAN produced far more impressive results than the rest on the more complex COCO dataset, In terms of inception score (IS), which is the metric that was applied to majority models except DC-GAN, the results in Table TABREF48 show that StackGAN++ only showed slight improvement over its predecessor, text to image synthesis is continuously improving the results for better visual perception and interception"}
+{"instruction": "On which dataset is model trained?", "answer": "Couples Therapy Corpus (CoupTher) BIBREF21"}
+{"instruction": "Is text-to-image synthesis trained is suppervized or unsuppervized manner?", "answer": "Even though natural language and image synthesis were part of several contributions on the supervised side of deep learning, unsupervised learning saw recently a tremendous rise in input from the research community specially on two subproblems: text-based natural language and image synthesis"}
+{"instruction": "How does Frege's holistic and functional approach to meaning relates to general distributional hypothesis?", "answer": "interpretation of Frege's work are examples of holistic approaches to meaning"}
+{"instruction": "What metrics are used to evaluate results?", "answer": "Unanswerable"}
+{"instruction": "Why is supporting fact supervision necessary for DMN?", "answer": "First, the GRU only allows sentences to have context from sentences before them, but not after them. This prevents information propagation from future sentences. Second, the supporting sentences may be too far away from each other on a word level to allow for these distant sentences to interact through the word level GRU."}
+{"instruction": "What KB is used in this work?", "answer": "DBpedia"}
+{"instruction": "What percentage fewer errors did professional translations make?", "answer": "36%"}
+{"instruction": "Was the structure of regulatory filings exploited when training the model?", "answer": "No"}
+{"instruction": "How is octave convolution concept extended to multiple resolutions and octaves?", "answer": "The resolution of the low-frequency feature maps is reduced by an octave – height and width dimensions are divided by 2. In this work, we explore spatial reduction by up to 3 octaves – dividing by $2^t$, where $t=1,2,3$ – and for up to 4 groups. We refer to such a layer as a multi-octave convolutional (MultiOctConv) layer,"}
+{"instruction": "Over which datasets/corpora is this work evaluated?", "answer": "$\\sim $ 8.7M annotated anonymised user utterances"}
+{"instruction": "By how much does their method outperform state-of-the-art OOD detection?", "answer": "AE-HCN outperforms by 17%, AE-HCN-CNN outperforms by 20% on average"}
+{"instruction": "What baseline model is used?", "answer": "Human evaluators"}
+{"instruction": "What is the problem with existing metrics that they are trying to address?", "answer": "Answer with content missing: (whole introduction) However, recent\nstudies observe the limits of ROUGE and find in\nsome cases, it fails to reach consensus with human.\njudgment (Paulus et al., 2017; Schluter, 2017)."}
+{"instruction": "What are the baselines model?", "answer": "(i) Uniform, (ii) SVR+W, (iii) SVR+O, (iv) C4.5SSL, (v) GLM"}
+{"instruction": "Do they evaluate only on English datasets?", "answer": "Yes"}
+{"instruction": "What metadata is included?", "answer": "besides claim, label and claim url, it also includes a claim ID, reason, category, speaker, checker, tags, claim entities, article title, publish data and claim date"}
+{"instruction": "Which patterns and rules are derived?", "answer": "A request for information act should be issued early in a conversation, followed by an answer, informative statement, or apology towards the end of the conversation,  offering extra help at the end of a conversation, or thanking the customer yields more satisfied customers, and more resolved problems , asking yes-no questions early-on in a conversation is highly associated with problem resolution (ratio 3:1), but asking them at the end of a conversation has as similarly strong association with unsatisfied customers, Giving elaborate answers that are not a simple affirmative, negative, or response acknowledgement (i.e. Answer (Other)) towards the middle of a conversation leads to satisfied customers that are not frustrated, requesting information towards the end of a conversation (implying that more information is still necessary at the termination of the dialogue) leads to unsatisfied and unresolved customers"}
+{"instruction": "What is the dataset used?", "answer": "EHRs of 183 psychosis patients from McLean Psychiatric Hospital in Belmont, MA"}
+{"instruction": "How do they demonstrate the robustness of their results?", "answer": "performances of a purely content-based model naturally stays stable"}
+{"instruction": "What features of the document are integrated into vectors of every sentence?", "answer": "Ordinal position, Length of sentence, The Ratio of Nouns, The Ratio of Numerical entities, Cue Words, Cosine position, Relative Length, TF-ISF, POS features, Document sentences, Document words, Topical category, Ratio of Verbs, Ratio of Adjectives, and Ratio of Adverbs"}
+{"instruction": "Do they use pretrained word embeddings?", "answer": "Yes"}
+{"instruction": "What model achieves state of the art performance on this task?", "answer": "BIBREF16"}
+{"instruction": "what is the size of this dataset?", "answer": "Unanswerable"}
+{"instruction": "What were the evaluation metrics?", "answer": "BLEU, Micro Entity F1, quality of the responses according to correctness, fluency, and humanlikeness on a scale from 1 to 5"}
+{"instruction": "Which knowledge bases do they use?", "answer": "Wikidata, ReVerb, FB15K, TACRED"}
+{"instruction": "What benchmark datasets they use?", "answer": "VQA and GeoQA"}
+{"instruction": "Which deep learning model performed better?", "answer": "autoencoders"}
+{"instruction": "How big is dataset of pathology reports collected from Ruijing Hospital?", "answer": "17,833 sentences, 826,987 characters and 2,714 question-answer pairs"}
+{"instruction": "Do they beat current state-of-the-art on SICK?", "answer": "No"}
+{"instruction": "What social media platform does the data come from?", "answer": "Unanswerable"}
+{"instruction": "Which dataset do they use?", "answer": " AMI IHM meeting corpus"}
+{"instruction": "What were the evaluation metrics used?", "answer": "accuracy, normalized mutual information"}
+{"instruction": "What was their performance on the dataset?", "answer": "accuracy of 82.6%"}
+{"instruction": "Is any data-to-text generation model trained on this new corpus, what are the results?", "answer": "Yes, Transformer based seq2seq is evaluated with average BLEU 0.519, METEOR 0.388, ROUGE 0.631 CIDEr 2.531 and SER 2.55%."}
+{"instruction": "How do they enrich the positional embedding with length information", "answer": "They introduce new trigonometric encoding which besides information about position uses additional length information (abs or relative)."}
+{"instruction": "What unlabeled corpus did they use?", "answer": "three years of online news articles from June 2016 to June 2019"}
+{"instruction": "Do they train a different training method except from scheduled sampling?", "answer": "Answer with content missing: (list missing) \nScheduled sampling: In our experiments, we found that models trained with scheduled sampling performed better (about 0.004 BLEU-4 on validation set) than the ones trained using teacher-forcing for the AVSD dataset. Hence, we use scheduled sampling for all the results we report in this paper.\n\nYes."}
+{"instruction": "Which two datasets does the resource come from?", "answer": "two surveys by two groups - school students and meteorologists to draw on a map a polygon representing a given geographical descriptor"}
+{"instruction": "What is typical GAN architecture for each text-to-image synhesis group?", "answer": "Semantic Enhancement GANs: DC-GANs, MC-GAN\nResolution Enhancement GANs: StackGANs, AttnGAN, HDGAN\nDiversity Enhancement GANs: AC-GAN, TAC-GAN etc.\nMotion Enhancement GAGs: T2S, T2V, StoryGAN"}
+{"instruction": "What are 3 novel fusion techniques that are proposed?", "answer": "Step-Wise Decoder Fusion, Multimodal Attention Modulation, Visual-Semantic (VS) Regularizer"}
