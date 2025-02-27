@@ -1,4 +1,3 @@
-import pdb
 import json
 import random
 from collections import defaultdict
@@ -74,7 +73,6 @@ for dataset in ['qmsum', 'multinews', 'govreport', 'narrativeqa', 'qasper', 'hot
 
 save_path = "./context-synthesis-chat-format.jsonl"
 
-pdb.set_trace()
 with open(save_path, 'w') as f:
     for data in saved_dataset:
         json.dump(data, f)

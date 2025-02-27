@@ -1,4 +1,3 @@
-import pdb
 import json
 import random
 import re
@@ -76,7 +75,6 @@ if __name__ == '__main__':
 
         for dataset_name in ['narrativeqa', 'qasper', 'hotpotqa', '2wikiqa', 'musique', 'govreport', 'qmsum', 'multinews']:
             dataset = load_dataset(dataset_name)
-            pdb.set_trace()
 
             for i in tqdm(range(len(dataset))):
                 processed_lines += 1
