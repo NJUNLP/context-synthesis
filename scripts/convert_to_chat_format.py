@@ -2,6 +2,7 @@ import json
 import random
 from collections import defaultdict
 
+
 random.seed(42)
 
 dataset2prompt = {"narrativeqa": "You are given a story, which can be either a novel or a movie script, and a question. Answer the question asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nStory: {context}\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: {input}\n\nAnswer:",
@@ -15,6 +16,8 @@ dataset2prompt = {"narrativeqa": "You are given a story, which can be either a n
                   }
 
 dataset_names = ['narrativeqa', 'qasper', 'hotpotqa', '2wikiqa', 'musique', 'govreport', 'qmsum', 'multinews']
+
+# TODO: allow for input_filename and output_filename arguments
 path = "./all_synthesized_context.jsonl"
 
 content_set = set()

@@ -1,3 +1,5 @@
+#! /bin/bash
+
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 
 export VLLM_NCCL_SO_PATH=/cpfs01/shared/XNLP_H800/software/nccl/build/lib/libnccl.so.2

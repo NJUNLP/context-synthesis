@@ -34,7 +34,7 @@ bash context_synthesis.sh
 - `generate_synthetic_context.py`: Generates background context based on instruction-answer pairs
 - `convert_to_chat_format.py`: Wraps the data in chat format, and extends context length by concatenating multiple contexts (optional)
 - We use [vllm](https://github.com/vllm-project/vllm) as the inference engine for open-source LLMs. Please follow their repository instructions to set up the inference environment
-- For proprietary models like GPT-4o, we recommend using batched API calls to save costs (script coming soon)
+- For proprietary/API-based models like GPT-4o, we recommend using batched API calls to save costs. Please refer to `context_synthesis_via_api.sh` and the python scripts therein for an example.
 
 #### Data Download 
 In our experiments, we perform both:
@@ -58,13 +58,11 @@ For model evaluation, we employ several document-level benchamrks. Please refer 
 
 ### :evergreen_tree: Citation
 ```
-@misc{zhu2025generalizingshortlongeffective,
+@article{zhu2025generalizingshortlongeffective,
       title={Generalizing From Short to Long: Effective Data Synthesis for Long-Context Instruction Tuning}, 
       author={Wenhao Zhu and Pinzhen Chen and Hanxu Hu and Shujian Huang and Fei Yuan and Jiajun Chen and Alexandra Birch},
       year={2025},
-      eprint={2502.15592},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
+      journal={arXiv preprint arXiv:2502.15592},
       url={https://arxiv.org/abs/2502.15592}, 
 }
 ```
